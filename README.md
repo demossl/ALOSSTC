@@ -11,7 +11,7 @@
 ## 说明
 1. 采用Python2.7编写
 2. 采用循环监听的方式，可以方便使用者在使用中只启动一次，将截图保存到本地，在使用完以后会自动清除，不占用过多的系统资源。
+3. 修改代码是支持Python3环境。改动不大，第一是语法问题，第二、由于PIL库不支持Python，需要pillow库，然后可以继续调用PIL;第三、修改了win32con.CF_UNICODETEXT，处理了Python版本的差异。
 
 ## 运行结果
-
-![](https://demos-qq.oss-cn-beijing.aliyuncs.com/Blog/1522135367.73.png)
+![](https://demos-qq.oss-cn-beijing.aliyuncs.com/Blog/1528641386.536843.png)
